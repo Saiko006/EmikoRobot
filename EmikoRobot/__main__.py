@@ -99,7 +99,7 @@ buttons = [
     [
         InlineKeyboardButton(text="ɢᴇᴛ ʜᴇʟᴘ", callback_data="help_back"),
         InlineKeyboardButton(
-            text="ɢʀᴏᴜᴘ!​​", (https://t.me/NeoonSupport)""
+            text="ᴛʀʏ ɪɴʟɪɴᴇ!​​", switch_inline_query_current_chat=""
         ),
     ],
     [

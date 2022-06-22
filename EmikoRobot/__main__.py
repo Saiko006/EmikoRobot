@@ -94,17 +94,17 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text=f"About {dispatcher.bot.first_name}", callback_data="emiko_"),
+        InlineKeyboardButton(text=f"ᴀʙᴏᴜᴛ {dispatcher.bot.first_name}", callback_data="emiko_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="ɢᴇᴛ ʜᴇʟᴘ", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Try inline!​​", switch_inline_query_current_chat=""
+            text="ᴛʀʏ ɪɴʟɪɴᴇ!​​", switch_inline_query_current_chat=""
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Me To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="🤖 ᴀᴅᴅ ɴᴇᴏɴ ᴛᴏ ɢʀᴜʙ 🤖", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
@@ -230,7 +230,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"👋 Hi, I'm {dispatcher.bot.first_name}. Nice to meet You.",
+            f"👋 Hi frend, i'm alive {dispatcher.bot.first_name}. Nice to meet You.",
             parse_mode=ParseMode.HTML
        )
 
